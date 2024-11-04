@@ -20,8 +20,8 @@ Siga os passos abaixo para instalar e realizar alterações no código
 1. Clone o repositório:
 
 ```bash
-git clone https://github.com/rodrigotoledo/simple_auth_app.git
-cd simple_auth_app
+git clone https://github.com/rodrigotoledo/SimpleAuthAppRails.git
+cd SimpleAuthAppRails
 ```
 
 2. Instale as dependências:
@@ -50,7 +50,7 @@ Inicie o servidor Rails:
 rails server
 ```
 
-Acesse o aplicativo em http://localhost:3000.
+Acesse o aplicativo em http://localhost:3000
 
 ### Testes
 
