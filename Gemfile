@@ -49,6 +49,8 @@ group :development, :test do
   gem "simplecov", require: false
   gem "guard"
   gem "guard-rspec", require: false
+  gem "faker"
+  gem "factory_bot_rails"
 end
 
 group :development do
@@ -60,4 +62,5 @@ group :test do
   # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
   gem "capybara"
   gem "selenium-webdriver"
+  gem "rails-controller-testing"
 end
