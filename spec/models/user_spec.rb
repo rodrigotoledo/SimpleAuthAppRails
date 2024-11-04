@@ -12,7 +12,7 @@ RSpec.describe User, type: :model do
     expect(user).not_to be_valid
     expect(user.errors[:email]).not_to be_empty
   end
-  
+
   context "validation of password" do
     it 'is invalid without a password' do
       user = build(:user, password: nil)
@@ -26,5 +26,4 @@ RSpec.describe User, type: :model do
       expect(user.errors[:password_confirmation]).not_to be_empty
     end
   end
-  
 end
