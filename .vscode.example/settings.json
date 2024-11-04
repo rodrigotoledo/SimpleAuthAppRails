@@ -1,0 +1,6 @@
+{
+  "ruby.rubocop.configFilePath": ".../SimpleAuthApp/.rubocop.yml",
+  "ruby.rubocop.executePath": ".../SimpleAuthApp/bin/",
+  "ruby.rubocop.useBundler": false,
+  "ruby.rubocop.autocorrectOnSave": true,
+}
