@@ -1,0 +1,14 @@
+<h1>Login</h1>
+<%= form_with url: login_path, method: :post do %>
+  <%=label_tag :email, "Email"%>
+  <%= text_field_tag :email, "", type: :email %><br>
+  <%=label_tag :email, "Senha"%>
+  <%= password_field_tag :password %><br>
+  <%= submit_tag "Entrar" %>
+<% end %>
+
+<pre>
+  Para ajudar em caso de teste utilize:
+  usuário: <strong><%=@user.email %></strong>
+  senha: <strong>secret</strong>
+</pre>

@@ -1,2 +1,6 @@
-<h1>Home#index</h1>
-<p>Find me in app/views/home/index.html.erb</p>
+<h1>Area protegida, voce tem acesso!</h1>
+<%= button_to "Deslogar", logout_path, method: :delete %>
+
+<div data-controller="inactivity" data-inactivity-timeout-value="60000">
+  <p>Essa página será desconectada automaticamente após 60 segundos de inatividade.</p>
+</div>
