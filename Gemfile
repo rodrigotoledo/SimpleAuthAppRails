@@ -49,6 +49,8 @@ group :development, :test do
   gem "simplecov", require: false
   gem "guard"
   gem "guard-rspec", require: false
+  gem "faker"
+  gem "factory_bot_rails"
 end
 
 group :development do

@@ -23,6 +23,6 @@ module SimpleAuthApp
     #
     # config.time_zone = "Central Time (US & Canada)"
     # config.eager_load_paths << Rails.root.join("extras")
-    config.session_store :cookie_store, key: '_simple_auth_app_session', expire_after: 60.seconds
+    config.session_store :cookie_store, key: "_simple_auth_app_session", expire_after: 60.seconds
   end
 end
