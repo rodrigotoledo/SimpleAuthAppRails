@@ -28,7 +28,7 @@ jobs:
       - name: Run tests
         env:
           RAILS_ENV: test
-        run: bin/rspec
+        run: bundle exec rspec
 
       - name: Upload screenshots for failed tests
         if: failure()
